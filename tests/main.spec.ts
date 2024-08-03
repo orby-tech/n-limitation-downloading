@@ -1,5 +1,5 @@
 import { expect, test } from "@jest/globals";
-import { downloadFile, downloadFiles } from "./main.ts";
+import { downloadFile, downloadFiles } from "../src/main.ts";
 
 const genRandomOrderedListOfUrls = (n: number) => {
   let urls = [];
